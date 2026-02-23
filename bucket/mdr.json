@@ -1,0 +1,23 @@
+{
+  "version": "0.2.7",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/CleverCloud/mdr/releases/download/v0.2.7/mdr-x86_64-pc-windows-msvc.zip",
+      "hash": "7d55ebe0663fda5b875157907d928d85e4be5817fbc307b1713fbb8ce2c9a8b3"
+    }
+  },
+  "bin": "mdr.exe",
+  "checkver": {
+    "github": "https://github.com/CleverCloud/mdr"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/CleverCloud/mdr/releases/download/v$version/mdr-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  },
+  "homepage": "https://github.com/CleverCloud/mdr",
+  "license": "MIT",
+  "description": "A lightweight Markdown viewer with Mermaid diagram support, live reload, and multiple backends"
+}
