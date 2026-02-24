@@ -3,7 +3,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/CleverCloud/mdr/releases/download/v0.2.7/mdr-x86_64-pc-windows-msvc.zip",
-      "hash": "c179b6e56d2ce18f449fe2f021e1d0f29980f2572886601c9b6acf504fc54806"
+      "hash": "88c66e05bc5bec036d5bdc97702f8869cfc1c02a5eaa1bbfc667dd381b1e2acf"
     }
   },
   "bin": "mdr.exe",
